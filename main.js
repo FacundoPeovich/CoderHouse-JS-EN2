@@ -12,7 +12,7 @@ const productos = {
     campera: 1200,
 };
 
-// Función para generar un ID único al azar
+// Función para generar un ID único al azar a cada compra realizada.
 
 const generarID = () => {
     const numericID = Math.floor(Math.random() * 1000000000);
